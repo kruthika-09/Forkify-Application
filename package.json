@@ -1,8 +1,8 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "A Food recipe app",
-  "default": "index.html",
+  "description": "Recipe application",
+  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -10,13 +10,12 @@
   "author": "Kruthika",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0",
-    "sass": "^1.80.1"
+    "@parcel/transformer-sass": "^2.13.0",
+    "parcel": "^2.13.0",
+    "sass": "^1.80.7"
   },
   "dependencies": {
-    "core-js": "^3.38.1",
-    "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.14.1"
+    "core-js": "^3.39.0",
+    "fractional": "^1.0.0"
   }
 }

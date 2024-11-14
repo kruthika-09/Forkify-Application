@@ -38,7 +38,7 @@ export const loadRecipe = async function (id) {
     else state.recipe.bookmarked = false;
   } catch (err) {
     //temp error handling
-    console.log(`${err}****`);
+    console.log(`${err}`);
     throw err;
   }
 };
